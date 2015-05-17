@@ -69,10 +69,10 @@ public class MAJClient extends HttpServlet {
 		
 	cdao.create(c);
 		
-		//doGet(request, response);
-		request.setAttribute("option", option);
-		
-		request.getRequestDispatcher("Error.jsp").forward(request, response);
+		doGet(request, response);
+//		request.setAttribute("option", option);
+//		
+//		request.getRequestDispatcher("Client.jsp").forward(request, response);
 	}
 
 }

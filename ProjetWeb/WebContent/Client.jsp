@@ -96,7 +96,7 @@ Pays : <input type="text" name="pays" onblur="verifPseudo(this)"><br/><br/>
 <input type="submit" name="action" value="Envoyer">
 <input type="reset" name="action" value="réinitialiser">
 </form>
-<c:set property="taille1" value="ma taille est 178 cm" scope="application" var="taille"/>
+<c:set value="ma taille est 178 cm" scope="session" var="taille"/>
 <table border="1" width="80%">
 <tr>
 <th>Id</th><th>Nom</th><th>Prenom</th><th>Adresse</th><th>Ville</th>
@@ -109,6 +109,5 @@ Pays : <input type="text" name="pays" onblur="verifPseudo(this)"><br/><br/>
 </c:if>
 </c:forEach>
 </table>
-
 </body>
 </html>

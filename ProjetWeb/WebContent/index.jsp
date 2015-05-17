@@ -11,7 +11,15 @@
 <h2>Menu</h2>
 <a href="MAJClient"> Client </a><br/><br/>
 <a href="MAJTypeClient"> Type Client</a><br/><br/>
+<a href="TagJSP.jsp"> Client</a><br/><br/>
 <!-- <a href="Client.jsp"> Client</a><br/><br/> -->
 <!-- <a href="TypeClient.jsp"> Type Client</a><br/><br/> -->
+
+<form action="TagJSP.jsp"  method="get">
+Nom : <input type="text" name="nom">
+Prenom : <input type="text" name="prenom">
+
+<input type="submit">
+</form>
 </body>
 </html>

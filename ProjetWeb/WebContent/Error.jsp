@@ -9,9 +9,9 @@
 <title>ERROR</title>
 </head>
 <body>
-<c:out value="${taille}"/><br/>
-<c:out value="${client.nom}"/>
-<c:out value="${option}"></c:out>
+Taille : <c:out value="${taille}"/><br/>
+Client.nom :<c:out value="${client.nom}"/><br/>
+Option : <c:out value="${option}"/><br/>
 <a href="index.jsp"> Menu</a><br/><br/>
 </body>
 </html>
